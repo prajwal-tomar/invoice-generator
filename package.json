@@ -1,0 +1,11 @@
+{
+  "name": "invoice-generator",
+  "private": true,
+  "description": "Freelancer invoice generator — app lives in invoice-app/",
+  "scripts": {
+    "postinstall": "npm install --prefix invoice-app",
+    "dev": "npm run dev --prefix invoice-app",
+    "build": "npm run build --prefix invoice-app",
+    "preview": "npm run preview --prefix invoice-app"
+  }
+}
